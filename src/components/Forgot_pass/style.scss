@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .forgot_pass {
+        width: 471px;
+        height: 345px;
+        box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+
+        .heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h4 {
+                font-weight: 700;
+                font-size: 30px;
+                padding-left: 38px;
+            }
+
+            img {
+                width: 40px;
+                height: 50px;
+                margin-right: 12px;
+            }
+        }
+
+        form {
+            padding: 2rem;
+
+            #email {
+                width: 100%;
+                padding: 14px 10px 14px 20px;
+                border: 1px solid;
+                filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+                border-radius: 1000px;
+                font-weight: 300;
+                font-size: 15px;
+            }
+
+            .errors {
+                color: #D80000;
+            }
+
+            .button_find-account {
+                button {
+                    width: 100%;
+                    padding: 14px 10px 14px 20px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #fff;
+                    background: #D80000;
+                    border-radius: 100px;
+                    border: none;
+                    margin-top: 47px;
+                    cursor: pointer;
+                }
+            }
+
+            .info {
+                text-align: center;
+                font-size: 15px;
+
+                .account {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 41px;
+
+                    p {
+                        opacity: 0.5;
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #F20000;
+                }
+            }
+
+        }
+
+
+    }
+
+}

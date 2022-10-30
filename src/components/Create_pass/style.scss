@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .create_pass {
+        width: 471px;
+        height: 560px;
+        box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+
+        .heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h4 {
+                font-weight: 700;
+                font-size: 30px;
+                padding-left: 38px;
+            }
+
+            img {
+                width: 40px;
+                height: 50px;
+                margin-right: 12px;
+            }
+            
+        }
+
+        .code_sent-email {
+            font-weight: 300;
+            font-size: 14px;
+            padding-left: 38px;
+
+            a {
+                color: #333;
+            }
+        }
+
+        form {
+            padding: 2rem;
+
+            .choose_the-age {
+                padding-bottom: 30px;
+            }
+
+            .errors {
+                color: #D80000;
+            }
+
+            .enter_code {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                #code {
+                    width: 60%;
+                    padding: 14px 10px;
+                    border: 1px solid ;
+                    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+                    border-radius: 1000px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #565656;
+                    text-decoration: underline;
+                    margin-right: 95px;
+
+                }
+            }
+
+            .enter_pass {
+                padding: 30px 0;
+            }
+
+            .enter_pass,
+            .enter_confirm {
+                position: relative;
+                #pass {
+                    width: 100%;
+                    padding: 14px 10px;
+                    border: 1px solid ;
+                    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+                    border-radius: 1000px;
+                }
+
+                .unmask, .mask {
+                    border: none;
+                    background-color: #fff;
+                    position: absolute;
+                    cursor: pointer;
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+
+                
+            }
+
+            .enter_pass {
+                .mask {
+                    top: 40px;
+                    left: 85%;
+                    div {
+                        width: 24px;
+                        height: 0px;
+                        border: 0.417895px solid #707070;
+                        background: #707070;
+                        transform: rotate(146.89deg);
+                        position: absolute;
+                        top: 39%;
+                        display: block;
+                    }
+                }
+
+                .unmask {
+                    top: 40px;
+                    left: 85%;
+                    div {
+                        display: none;
+                    }
+                }
+            }
+
+            .enter_confirm {
+                .unmask {
+                    top: 10px;
+                    left: 85%;
+                }
+            }
+
+            .enter_confirm {
+                .mask {
+                    top: 10px;
+                    left: 85%;
+                    div {
+                        width: 24px;
+                        height: 0px;
+                        border: 0.417895px solid #707070;
+                        background: #707070;
+                        transform: rotate(146.89deg);
+                        position: absolute;
+                        top: 39%;
+                        display: block;
+                    }
+                }
+
+                .unmask {
+                    top: 10px;
+                    left: 85%;
+                    div {
+                        display: none;
+                    }
+                }
+            }
+
+            .button_confirm-pass {
+                button {
+                    width: 100%;
+                    padding: 14px 10px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #fff;
+                    background: #D80000;
+                    border-radius: 100px;
+                    border: none;
+                    margin-top: 30px;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                }
+            }
+
+        }
+
+    }
+
+}
